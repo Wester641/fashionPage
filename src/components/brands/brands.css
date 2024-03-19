@@ -1,0 +1,24 @@
+.brands {
+  padding: 60px 0 55px;
+  background-color: var(--yellow);
+}
+
+.brands__list {
+  display: flex;
+  column-gap: 100px;
+  mix-blend-mode: multiply;
+  animation: slider 15s linear infinite;
+}
+.container {
+  /* display: flex; */
+  overflow: hidden;
+}
+
+@keyframes slider {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-110%);
+  }
+}

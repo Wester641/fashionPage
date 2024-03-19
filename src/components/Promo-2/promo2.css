@@ -1,0 +1,93 @@
+.container2 {
+  padding: 0 0;
+}
+
+.promo2__content {
+  display: flex;
+  background: linear-gradient(
+    0deg,
+    rgb(224, 195, 64),
+    rgb(223, 194, 62) 3.929%,
+    rgb(225, 196, 65) 7.229%,
+    rgb(227, 199, 67) 10.229%,
+    rgb(228, 197, 66) 13.141%,
+    rgb(230, 199, 68) 16.223%,
+    rgb(231, 200, 69) 19.84%,
+    rgb(229, 198, 67) 24.383%,
+    rgb(230, 201, 69) 30.996%,
+    rgb(227, 199, 67) 37.194%,
+    rgb(233, 202, 72) 43.333%,
+    rgb(237, 206, 73) 50.359%,
+    rgb(240, 212, 76) 56.569%,
+    rgb(244, 216, 79) 62.712%,
+    rgb(246, 218, 82) 67.124%,
+    rgb(247, 219, 83) 73.767%,
+    rgb(249, 221, 85) 79.08%,
+    rgb(249, 223, 86) 85.645%,
+    rgb(250, 225, 87) 93.496%,
+    rgb(249, 223, 86) 100%
+  );
+}
+
+.promo2__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+  max-width: 530px;
+  margin-right: 40px;
+}
+.promo2__title {
+  max-width: 480px;
+  font-weight: 900;
+  font-size: 76px;
+  line-height: 1.25;
+  margin: 0;
+}
+.promo2__desc {
+  font-size: 26.04px;
+  font-weight: 500;
+  letter-spacing: -2%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.promo2__desc span {
+  font-weight: bold;
+}
+
+.promo2__img {
+  order: -1;
+}
+
+.promo2__btn {
+  padding: 14px 24px;
+
+  background: #000000;
+  border-radius: 10px;
+
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.5;
+  letter-spacing: -0.05em;
+  color: #fff;
+}
+
+.highlight {
+  position: relative;
+  display: inline-block;
+}
+.highlight span {
+  position: relative;
+}
+.highlight::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: -20px;
+  right: -50px;
+  background-color: #fff;
+  transform: rotate(-2deg);
+}

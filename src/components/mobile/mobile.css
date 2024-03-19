@@ -1,0 +1,33 @@
+.container__mob {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile__content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.mobile__title {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 150%;
+  letter-spacing: 6%;
+  text-align: left;
+}
+.mobile__desc {
+  color: rgb(124, 124, 124);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: -4%;
+  text-align: left;
+}
+.social__img img {
+  width: 200px;
+  height: 61px;
+  margin: 10px;
+}

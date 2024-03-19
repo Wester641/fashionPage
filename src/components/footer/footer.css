@@ -1,0 +1,36 @@
+.container__footer {
+  background-color: #000;
+  height: 300px;
+}
+.footer__content {
+  height: 300px;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+}
+.footer__text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer__title {
+  color: #fff;
+}
+.title__sub-title {
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 3%;
+  text-align: left;
+}
+.footer__desc {
+  display: flex;
+  gap: 100px;
+}
+.desc__link {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
